@@ -1,0 +1,31 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  align-items: center;
+}
+
+.logo {
+  justify-self: start;
+}
+
+.menu-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.menu-lista a {
+  display: block;
+  background-color: #9a68e2;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.125rem;
+  transition: 0.2s;
+}
+
+.menu-lista a:hover {
+  background-color: #5c3f88;
+}
