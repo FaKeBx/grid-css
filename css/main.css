@@ -1,0 +1,117 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+  margin: 0px auto;
+  max-width: 900px;
+}
+
+.titulo {
+  align-items: start;
+}
+
+.titulo h1 {
+  font-size: 3.75rem;
+  line-height: 1;
+  color: #b07dfb;
+}
+
+.titulo span {
+  font-size: 0.875rem;
+  color: #b07dfb;
+  font-style: italic;
+}
+
+.caracteristicas {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.caracteristicas-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
+  border-radius: 5px;
+}
+
+.numero {
+  font-size: 3rem;
+  line-height: 1;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  color: #b07dfb;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 15px;
+}
+
+.info-numero {
+  font-size: 1rem;
+  color: #b07dfb;
+  padding: 5px 0px;
+}
+
+.descricao {
+  grid-column: 1 /3;
+}
+
+.descricao-roxa {
+  grid-column: 2;
+  grid-row: 3;
+  font-size: 0.875rem;
+  color: #b07dfb;
+  max-width: 16rem;
+}
+
+.imagem-descricao-roxa {
+  grid-column: 2;
+  grid-row: 3;
+  align-self: end;
+}
+
+.bloco-citacao {
+  grid-column: span 2;
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
+
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.citacao {
+  font-family: vollkorn;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  max-width: 500px;
+  margin: 0px auto;
+}
+
+.descricao-lista {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.descricao-lista li {
+  color: white;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+  border-bottom: solid 2px #b07dfb;
+}
+
+.descricao-lista li:nth-child(6) {
+  border-bottom: none;
+}
+
+.descricao-info p ~ p {
+  margin-top: 30px;
+}
+
+.imagem-final {
+  grid-column: span 2;
+}

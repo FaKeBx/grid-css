@@ -5,3 +5,12 @@
 
 /* sidenav */
 @import "/css/sidenav.css";
+
+/* main */
+@import "/css/main.css";
+
+/* anuncios */
+@import "/css/anucios.css";
+
+/* footer */
+@import "/css/footer.css";

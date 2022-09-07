@@ -1,0 +1,9 @@
+.anuncio-container {
+  background-color: #fafbfc;
+  padding: 30px;
+}
+
+.anuncio-lista {
+  display: grid;
+  gap: 30px;
+}

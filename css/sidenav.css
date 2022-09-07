@@ -1,6 +1,6 @@
 .sidenav {
-padding: 30px;
-background-color: #fafbfc;
+  padding: 30px;
+  background-color: #fafbfc;
 }
 
 .sidenav-lista {
@@ -8,9 +8,12 @@ background-color: #fafbfc;
   justify-items: center;
 }
 
+.sidenav-item img {
+  min-width: 60px;
+  max-width: 100px;
+}
+
 .sidenav-item {
-  width: 100px;
-  height: 100px;
   padding: 20px;
   margin: 0px auto 30px auto;
   background: white;
@@ -19,6 +22,6 @@ background-color: #fafbfc;
 }
 
 .sidenav-item:hover {
-  background-color: #B07DFB;
+  background-color: #b07dfb;
   transition: 0.1s ease-out;
 }

@@ -1,0 +1,30 @@
+.rodape {
+  background: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
+}
+
+.rodape p {
+  color: white;
+  text-align: center;
+  max-width: 900px;
+  margin: 0px auto;
+}
+
+@media (max-width: 1200px) {
+  .estrutura {
+    grid-template-columns: minmax(160px, 1fr) 3fr;
+  }
+
+  .anuncio-container {
+    padding-bottom: 60px;
+    background-color: white;
+    grid-column: 2;
+  }
+
+  .anuncio-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+  .sidenav {
+    grid-row: span 2;
+  }
+}
