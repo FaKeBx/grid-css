@@ -25,6 +25,10 @@ a {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   border-radius: 5px;
+}
+.estrutura {
+  display: grid;
+  grid-template-columns: minmax(160px, 1fr) 3fr 300px;
 }

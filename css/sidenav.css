@@ -1,0 +1,24 @@
+.sidenav {
+padding: 30px;
+background-color: #fafbfc;
+}
+
+.sidenav-lista {
+  display: grid;
+  justify-items: center;
+}
+
+.sidenav-item {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  margin: 0px auto 30px auto;
+  background: white;
+  box-shadow: 5px 5px 15px 0px rgb(44 44 44 / 15%);
+  border-radius: 5px;
+}
+
+.sidenav-item:hover {
+  background-color: #B07DFB;
+  transition: 0.1s ease-out;
+}
